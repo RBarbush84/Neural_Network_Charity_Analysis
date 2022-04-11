@@ -55,4 +55,4 @@ On the third attempt to increase model performance, I changed the activation fun
 ## Summary
 Neither the original model nor any of the subsequent attempts at optimizing the model were able to reach the target accuracy score of 75%. The original model had an accuracy score of 72.90%, but none of the attempts to optimize the model were able to improve upon that accuracy.
 
-Some other possible recommendations to try to optimize the model and reach the target accuracy score could include 
+Some other possible recommendations to try to optimize the model and reach the target accuracy score could include re-bucketing some of the feature variables, such as the ASK_AMT variable or further increasing the number of hidden layers or the number of neurons used in those hidden layers. The accuracy did not appear to vary too much as fitting the model was reaching the end of the process, so it does not look like increasing the number of epochs would help increase accuracy and optimize the model.
