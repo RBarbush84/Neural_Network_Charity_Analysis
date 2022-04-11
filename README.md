@@ -53,4 +53,6 @@ On the third attempt to increase model performance, I changed the activation fun
 ![Opt 3 Results](https://github.com/RBarbush84/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%203%20Results.png)
 
 ## Summary
-summarize results and provide recommendation (how a different model could help solve the problem)
+Neither the original model nor any of the subsequent attempts at optimizing the model were able to reach the target accuracy score of 75%. The original model had an accuracy score of 72.90%, but none of the attempts to optimize the model were able to improve upon that accuracy.
+
+Some other possible recommendations to try to optimize the model and reach the target accuracy score could include 
