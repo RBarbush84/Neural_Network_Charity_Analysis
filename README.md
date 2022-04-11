@@ -10,7 +10,15 @@ The purpose of this analysis is to build a neural network model to predict how A
 - The EIN and NAME variables were neither targets nor features of the model and were dropped from the input data.
 
 ### Compiling, Training and Evaluating the Model
-- how many neurons, layers and activation functions used in the model
+- The first model used 2 hidden layers, the first had 80 neurons and the second had 30 neurons. The 2 hidden layers used ReLU function, and the output layer used the sigmoid function. The accuracy for this model was 72.90%.
+
+#### Original Model Code
+![Original Model Code](https://github.com/RBarbush84/Neural_Network_Charity_Analysis/blob/main/Resources/Original%20Model%20Code.png)
+
+#### Original Model Results
+![Original Model Results](https://github.com/RBarbush84/Neural_Network_Charity_Analysis/blob/main/Resources/Original%20Model%20Results.png)
+
+
 - able to achieve 75% target performance
 - steps to try to increase model performance
 
