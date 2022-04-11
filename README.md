@@ -26,13 +26,31 @@ The purpose of this analysis is to build a neural network model to predict how A
 
 I changed the amount of neurons in the second hidden layer from 30 to 60 in an attempt to increase model performance. This led to an accuracy of 72.86% for the model, and did not increase performance to the target.
 
+#### Optimization Attempt 1 Code
+![Opt 1 Code](https://github.com/RBarbush84/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%201%20Code.png)
+
+#### Optimization Attempt 1 Results
+![Opt 1 Results](https://github.com/RBarbush84/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%201%20Results.png)
+
   - Attempt 2- Adding a third hidden layer to the model
 
 For this attempt, I added a third hidden layer to the model that had 30 neurons. This resulted in an accuracy of 72.77% for the model, which does not increase the model's performance to the target.
 
+#### Optimization Attempt 2 Code
+![Opt 2 Code](https://github.com/RBarbush84/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%202%20Code.png)
+
+#### Optimization Attempt 2 Results
+![Opt 2 Results](https://github.com/RBarbush84/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%202%20Results.png)
+
   - Attempt 3- Using a Leaky ReLU activation function for the hidden layers
 
 On the third attempt to increase model performance, I changed the activation function used in the hidden layers from ReLU to Leaky ReLU. This change to the model resulted in an accuracy score of 72.90%, and did not increase performance to the 75% target.
+
+#### Optimization Attempt 3 Code
+![Opt 3 Code](https://github.com/RBarbush84/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%203%20Code.png)
+
+#### Optimization Attempt 3 Results
+![Opt 3 Results](https://github.com/RBarbush84/Neural_Network_Charity_Analysis/blob/main/Resources/Opt%203%20Results.png)
 
 ## Summary
 summarize results and provide recommendation (how a different model could help solve the problem)
