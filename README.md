@@ -23,6 +23,7 @@ The purpose of this analysis is to build a neural network model to predict how A
 
 - The below steps were taken to try to increase model performance to the 75% accuracy target.
   - Attempt 1- Adding neurons to the second hidden layer
+
 I changed the amount of neurons in the second hidden layer from 30 to 60 in an attempt to increase model performance. This led to an accuracy of 72.86% for the model, and did not increase performance to the target.
 
   - Attempt 2- Adding a third hidden layer to the model
