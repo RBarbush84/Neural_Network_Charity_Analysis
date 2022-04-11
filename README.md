@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 ## Overview
 ### Purpose
-The purpose of this analysis is to build a neural network model to predict how Alphabet Soup can make the most impactful positive donations to different organizations, and which organizations Alphabet Soup helps fund will be the most beneficial to donate to.
+The purpose of this analysis is to build a neural network model to predict how Alphabet Soup can make the most impactful positive donations to different organizations, and determine which organizations Alphabet Soup helps fund will be the most beneficial to donate to.
 
 ## Results
 ### Data Preprocessing
