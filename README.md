@@ -5,9 +5,9 @@ The purpose of this analysis is to build a neural network model to predict how A
 
 ## Results
 ### Data Preprocessing
-- what variables are considered targets for the model
-- what variable are features of the model
-- what variables are not targets or features and should be removed
+- The IS_SUCCESSFUL variable was the target of this model, to determine if donations made by Alphabet Soup were successful.
+- The variables that were features to try to predict if donations are successful were APPLICATION_TYPE, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT.
+- The EIN and NAME variables were neither targets nor features of the model and were dropped from the input data.
 
 ### Compiling, Training and Evaluating the Model
 - how many neurons, layers and activation functions used in the model
