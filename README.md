@@ -28,10 +28,11 @@ I changed the amount of neurons in the second hidden layer from 30 to 60 in an a
 
   - Attempt 2- Adding a third hidden layer to the model
 
+For this attempt, I added a third hidden layer to the model that had 30 neurons. This resulted in an accuracy of 72.77% for the model, which does not increase the model's performance to the target.
 
   - Attempt 3- Using a Leaky ReLU activation function for the hidden layers
 
-
+On the third attempt to increase model performance, I changed the activation function used in the hidden layers from ReLU to Leaky ReLU. This change to the model resulted in an accuracy score of 72.90%, and did not increase performance to the 75% target.
 
 ## Summary
 summarize results and provide recommendation (how a different model could help solve the problem)
